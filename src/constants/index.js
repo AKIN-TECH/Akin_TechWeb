@@ -167,7 +167,7 @@ const projects = [
       },
     ],
     image: one,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
     name: "Home Rehabilitation",
@@ -188,7 +188,7 @@ const projects = [
       },
     ],
     image: two,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
     name: "Home Exterier",
@@ -209,7 +209,7 @@ const projects = [
       },
     ],
     image: three,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
     name: "Home Exterier",
@@ -231,7 +231,7 @@ const projects = [
       },
     ],
     image: four,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
     name: "Home Exterier-Blogs",
@@ -252,7 +252,7 @@ const projects = [
       },
     ],
     image: five,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
     name: "Home Exterier-Blogs",
@@ -273,7 +273,7 @@ const projects = [
       },
     ],
     image: six,
-    source_code_link: "https://discord.gg/6X4cCQv9",
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
 
 ];
@@ -315,7 +315,7 @@ const images = [
     },
   ],
   image: hadeel,
-  source_code_link: "https://discord.gg/6X4cCQv9",
+  source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
 {
   name: "Samer Rahmeh | CTO ",
@@ -337,7 +337,7 @@ const images = [
     },
   ],
   image: samer,
-  source_code_link: "https://discord.gg/6X4cCQv9",
+  source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
 {
   name: "Haya Balasmeh ",
@@ -358,7 +358,7 @@ const images = [
     },
   ],
   image: haya,
-  source_code_link: "https://discord.gg/6X4cCQv9",
+  source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
 
 ];

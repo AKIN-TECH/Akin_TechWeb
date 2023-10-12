@@ -16,7 +16,7 @@ const FeedbackCard = ({
   <div className="flex flex-wrap justify-center items-center">
    <motion.div
     variants={fadeIn("", "spring", index * 0.7, 0.75)}
-    className="bg-black-200 p-5 rounded-3xl xs:w-[400px] w-full justify-center items-center"
+    className="bg-black-200 p-5 rounded-3xl xs:w-[300px] w-full justify-center items-center"
    >
     <p className=" mt-7 flex flex-wrap text-cyan-200 font-black text-[48px] justify-center items-center">"</p>
 

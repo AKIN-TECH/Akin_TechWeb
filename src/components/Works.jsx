@@ -84,7 +84,7 @@ const Works = () => {
       </div>
       <div class="mt-7 flex flex-wrap justify-center  gap-10">
       <a
-          href="#Section_4"
+          href="https://discord.gg/xBC5v8gYk6"
           id="button-secondry"
           className=" animate-slideleftT4 pg-cyan-300 px-[30x] py-[7px] cursor-pointer hover:scale-105 active:scale-90 hover  duration-150 select-none rounded-[px]  hover: border-indigo-cyan-300 hover:bg-shadow-[#67e8f9]/50  font-bold py- px-10 border-b-2 border-cyan-300 hover:border-orange-500 px-[20px] py-[10px] rounded-[9px]  hover: text-cyan-300 shadow-lg shadow-[#67e8f9]/50 justify-center "
           

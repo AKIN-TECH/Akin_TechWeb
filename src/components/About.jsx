@@ -52,7 +52,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        Manzel is located in Jordan, it's the first VR Educational game for Architects that utilizes AI & VR  to teach design, construction, and history with challenges to increase the accuracy for the highlest challanges, and learning quality with shorted time estimation.
+        Manzel is located in Jordan, it's the first VR Educational game for Architects that utilizes AI & VR  to teach design, construction, and history with challenges to increase the accuracy for the highest challenges, and learning quality with shorted time estimation.
 
        
        </motion.p>
