@@ -66,7 +66,7 @@ const Works = () => {
       <div class="mt-5 flex flex-wrap justify-center text-center items-center">
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Manzel Community.</h2>
-        <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works/ <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
+        <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works join us/ <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
           Comming Soon.</span>
         </p>
         
