@@ -39,7 +39,7 @@ export const navLinks = [
     title: "Roadmap",
   },
   {
-    id: "Tech",
+    id: "team",
     title: "Teams",
   },
 

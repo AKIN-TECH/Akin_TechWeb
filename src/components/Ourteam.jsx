@@ -104,4 +104,4 @@ const Ourteam = () => {
 };
 
 
-export default SectionWrapper(Ourteam, "");
+export default SectionWrapper(Ourteam, "team");
