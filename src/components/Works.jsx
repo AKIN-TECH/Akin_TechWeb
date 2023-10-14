@@ -16,11 +16,11 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-5 flex flex-wrap justify-center">
+    <div class="mt-5 flex flex-wrap justify-center ">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-white p-5 rounded-2xl sm:w-[300px] w-full shadow-[#00ECFE]/20"
+        className="bg-white p-5 rounded-2xl sm:w-[170px] w-full shadow-[#00ECFE]/20"
       >
         <div className="relative w-full h-[250px]">
           <img
@@ -44,7 +44,7 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-orange-400 font-bold text-[18px]">{name}</h3>
+          <h3 className="text-orange-400 font-bold text-[15px]">{name}</h3>
           <p className="mt-2 text-cyan-900 text-[12px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-1">

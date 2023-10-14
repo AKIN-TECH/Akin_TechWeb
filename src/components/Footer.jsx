@@ -8,10 +8,10 @@ import React from "react";
 const Footer = () => {
 
   return (
-    <div className="w-full h-auto bg-[black]/50 backdrop-blur-md  text-gray-200 shadow-lg shadow-[balck]/90 p-[15px] 630:p-0 flex gap-4">
-      <div className=" w-full 1000:w-[1000px] h-auto 630:h-[300px] flex flex-col items-center  justify-center m-auto flex gap-4 ">
+    <div className="w-full h-auto bg-[black]/50 backdrop-blur-md  text-gray-200 shadow-lg shadow-[balck]/90 p-[15px] 630:p-5 flex gap-4">
+      <div className=" w-full 1000:w-[px] h-auto 630:h-[300px] flex flex-col items-center  justify-center m-auto flex gap-4 ">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          <div className="min-w-[200px]  h-auto flex flex-col  items-start 630:items-start justify-start flex gap-4">
+          <div className="min-w-[100px] h-auto flex flex-col  items-start 630:items-start justify-start flex gap-4">
             <div className=" font-bold text-[16px] text-cyan-300">Contact us</div>
            
             <div className="mb-[20px] text-[15px] text-start  ">
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="mb-[60px] h-[1px] bg-white flex gap-4">
+          <div className=" mt-[40px] mb-[40px] h-[1px] bg-white flex gap-4">
             
             <a
               href="https://www.instagram.com/manzeltech/"
@@ -52,7 +52,7 @@ const Footer = () => {
               >
                 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558 .064 7.926c0 1.399 .366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z" />
               </svg>
-              <span className=" text-[15px] ml-[6px]">whatsapp</span>
+              <span className=" text-[15px] ml-[5px]">whatsapp</span>
             </a>
             <a
               href="https://www.linkedin.com/company/akin-manzel"
@@ -68,7 +68,7 @@ const Footer = () => {
               >
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
               </svg>
-              <span className=" text-[15px] ml-[6px]">Linkdin</span>
+              <span className=" text-[15px] ml-[5px]">Linkdin</span>
             </a>
              <div className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer ">
               <svg

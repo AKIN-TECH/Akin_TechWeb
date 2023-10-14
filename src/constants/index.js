@@ -31,20 +31,20 @@ import {
 export const navLinks = [
   {
     
-    id: "about",
+    id: "About",
     title: "About",
   },
   {
-    id: "work",
+    id: "Roadmap",
     title: "Roadmap",
   },
   {
-    id: "team",
+    id: "OurTeam",
     title: "Teams",
   },
 
   {
-    id: "contact",
+    id: "Contact",
     title: "Contact",
   },
 ];
@@ -149,9 +149,9 @@ const feature = [
 
 const projects = [
   {
-    name: "Home Exterier-Ahmad",
+    name: "Home Exterier",
     description:
-      "Oh you know… just working on another portfolio .",
+      "Oh you know… just working on another portfolio, manzel begining insane!!",
     tags: [
       {
         name: "Manzel",
@@ -159,10 +159,6 @@ const projects = [
       },
       {
         name: "Games",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Home building relations",
         color: "blue-text-gradient",
       },
     ],
@@ -170,20 +166,17 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Rehabilitation",
+    name: "Home Planning",
     description:
       "🕹️ My submission for @Manzel tech's challenges this chapter.",
     tags: [
-      {
-        name: "Home building relations",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Games",
-        color: "blue-text-gradient",
-      },
+     
       {
         name: "Manzel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Home building",
         color: "blue-text-gradient",
       },
     ],
@@ -193,14 +186,10 @@ const projects = [
   {
     name: "Home Exterier",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotel.",
+      "A challenging mission we needed to build it, starting from the foundation",
     tags: [
       {
         name: "Manzel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Home building relations",
         color: "blue-text-gradient",
       },
       {
@@ -214,7 +203,7 @@ const projects = [
   {
     name: "Home Exterier",
     description:
-      "Participated in the challenge with 'The Leader of Speeches' a simple house design, waiting more for the new challenges.",
+      "Participated in a challenge to build a simple house design.",
 
     tags: [
       {
@@ -234,9 +223,9 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Exterier-Blogs",
+    name: "House-Blogs",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated.",
+      "working with a traditional home designer, but everything has been changed now.",
     tags: [
       {
         name: "Building design",
@@ -246,18 +235,15 @@ const projects = [
         name: "Draw",
         color: "blue-text-gradient",
       },
-      {
-        name: "Collaborative",
-        color: "blue-text-gradient",
-      },
+
     ],
     image: five,
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Exterier-Blogs",
+    name: "House-Blogs",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated .",
+      "A comprehensive design beased on clinets requirments, has been changed now.",
     tags: [
       {
         name: "AI",
