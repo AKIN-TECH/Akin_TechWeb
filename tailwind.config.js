@@ -22,12 +22,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
+    container: {
+      
+      center: true
+    },
     extend: {
       colors: {
         backgroundImage: "#070713",
         primary: "#050816",
         // secondary: "#aaa6c3",
         tertiary: "#070713",
+
         // "black-100": "#100d25",
         // "black-200": "#090325",
         // "white-100": "#f3f3f3",
@@ -42,8 +47,9 @@ module.exports = {
         roboto: "Roboto",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/hero.png')",
-        "hero-footer":"url('/src/assets/hero2.png')",
+        "hero-pattern": "url('/src/assets/hero2 copy.png')",
+        "hero-footer":"url('/src/assets/bg.gif')",
+        "works-pattern": "url('/src/assets/bg.gif')"
       },
     },
   },

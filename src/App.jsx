@@ -20,7 +20,9 @@ import {
 
 const App = () => {
   return (
+    
     <BrowserRouter>
+    
       <div className="relative z-0 bg primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -33,13 +35,16 @@ const App = () => {
         <Ourteam />
         {/* <Advisory /> */}
         <Supporters/> 
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
+        
+        
+        <div className=" ti-container relative z-5 ">
+          <Works />
+          <Feedbacks />
           <Contact />
           <StarsCanvas />
-          <Footer/>
+          
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

@@ -23,7 +23,7 @@ const Footer = () => {
             
             <a
               href="https://www.instagram.com/manzeltech/"
-              className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
+              className=" flex flex-row items-center my-[15px] hover:underline cyan-300  cursor-line cyan-300 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
