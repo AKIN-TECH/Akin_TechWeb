@@ -47,7 +47,7 @@ module.exports = {
         roboto: "Roboto",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/hero2 copy.png')",
+        "hero-pattern": "url('/src/assets/output-onlinegiftools.gif')",
         "hero-footer":"url('/src/assets/bg.gif')",
         "works-pattern": "url('/src/assets/bg.gif')"
       },

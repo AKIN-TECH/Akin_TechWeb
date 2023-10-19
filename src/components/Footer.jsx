@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className=" mt-[40px] mb-[40px] h-[1px] bg-white flex gap-4">
+          <div className=" mt-[40px] mb-[40px] h-[1px] bg-white flex gap-4 y-10">
             
             <a
               href="https://www.instagram.com/manzeltech/"

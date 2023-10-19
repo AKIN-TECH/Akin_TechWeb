@@ -55,7 +55,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className="w-full flex justify-between items-center max-w-10x2 mx-auto backdrop-blur-md  ">
+      <div className="w-full flex justify-between items-center max-w-10x2 mx-auto   ">
         <Link
           to="/"
           className="flex items-center gap-0"
