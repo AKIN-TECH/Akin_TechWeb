@@ -21,8 +21,6 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#00ECFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div> 
-        
-          {/* <Spline scene="https://prod.spline.design/7oWceMpPb4qZMA8I/scene.splinecode" /> */}
 
            
          <div>
@@ -38,8 +36,7 @@ const Hero = () => {
           <motion.div variants={textVariant()}>
             <p className={`${styles.heroSubText} mt-2 text-white-200 mt-10 text-slate-300	flex text-[16px] flex-wrap justify-center text-center leading-[20Px] ">`}>
           We build new immersive, and rewarding architectural educational world with <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
-          Fun experience. </span><span className=" text-[20px] text-cyan-700 leading-[50Px]" >
-             "Rotate the Manzel"</span>
+          Fun experience. </span>
             </p>
           </motion.div>  
             <h className= "flex flex-wrap mt-2 text-cyan-300 mt-7 text-slate-300	flex text-[14x] flex-wrap justify-center text-center ">

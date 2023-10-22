@@ -43,7 +43,6 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>About.</h2>
         <p className={styles.sectionSubText}>Who We Are?</p>
         
-       
       </motion.div>
       </div> 
      

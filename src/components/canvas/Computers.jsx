@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={0.5} groundColor="black" />
       <spotLight
         position={[20, 50, 10]}
-        angle={0.12}
+        angle={0.0}
         penumbra={1}
         intensity={1}
         castShadow
@@ -66,11 +66,11 @@ const ComputersCanvas = () => {
         gl={{ preserveDrawingBuffer: true }}
       >
         <Suspense fallback={<CanvasLoader />}>
-          <OrbitControls
+           <OrbitControls
             enableZoom={false}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
-          />
+          /> 
           <Computers isMobile={isMobile} />
         </Suspense>
         <Preload all />

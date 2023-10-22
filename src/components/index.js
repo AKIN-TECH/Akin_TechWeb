@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import Features from "./Features";
 import Supporters from "./Supporters";
 import Ourteam from "./Ourteam";
+import Spline from "./Spline";
 
 
 
@@ -22,6 +23,7 @@ export {
   Hero,
   Footer,
   Navbar,
+  Spline,
   About,
   // Tech,
   Experience,
