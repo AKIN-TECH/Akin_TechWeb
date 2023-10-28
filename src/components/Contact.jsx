@@ -27,16 +27,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_bz1e9tq",
+        "template_betqicq",
         {
           form_name: form.name,
-          to_name: "Manzel",
+          to_name: "manzel",
           from_email: form.email,
-          to_email: "Manzeledtech@gmail.com",
+          from_name: form.name,
+          to_email: "manzeledtech@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "aIzJAFTlq9wDFWKgH"
       )
       .then(
         () => {
@@ -84,7 +85,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium justify-center items-center"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium justify-center items-center"
             />
           </label>
           <label className="flex flex-col">
@@ -95,7 +96,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -106,7 +107,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
             />
           </label>
 

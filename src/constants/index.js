@@ -134,7 +134,7 @@ const testimonials = [
 ];
 const feature = [
   {
-    name: "INCABORATE AI TO ENHANCE LEARNING",
+    name: "INCORPORATE AI TO ENHANCE LEARNING",
  
     image: seven,
     

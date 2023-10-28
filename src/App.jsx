@@ -15,7 +15,8 @@ import {
   StarsCanvas,
   Ourteam,
   // Advisory,
-  Spline
+  Spline,
+  // Typewriter
 
 } from "./components";
 
@@ -33,7 +34,7 @@ const App = () => {
         </div>
         <About />
         <Features/>
-         
+        {/* <Typewriter /> */}
         <Spline />
         <Experience />
         <Ourteam />

@@ -14,6 +14,8 @@ import Features from "./Features";
 import Supporters from "./Supporters";
 import Ourteam from "./Ourteam";
 import Spline from "./Spline";
+import Type from "./type";
+
 
 
 
@@ -26,6 +28,7 @@ export {
   Spline,
   About,
   // Tech,
+  Type,
   Experience,
   Supporters,
   // Advisory,

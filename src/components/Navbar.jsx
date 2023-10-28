@@ -90,7 +90,7 @@ const Navbar = () => {
           className=" animate-slideleftT4 px-[30x] py-[10px] cursor-pointer hover:scale-105 active:scale-90 hover  duration-150 select-none rounded-[px]  hover: border-indigo-cyan-300 hover:bg-shadow-[#67e8f9]/50  font-bold py-2 px-10 border-b-2 border-cyan-300 hover:border-orange-500 px-[20px] py-[10px] rounded-[9px]  hover: text-cyan-300 shadow-lg shadow-[#67e8f9]/50  "
           
         >
-          Launch
+          Wishlist
           </a>
         
     
