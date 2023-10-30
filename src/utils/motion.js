@@ -2,6 +2,7 @@ export const textVariant = (delay) => {
   return {
     hidden: {
       y: -50,
+      z: -50,
       opacity: 0,
     },
     show: {
@@ -106,4 +107,7 @@ export const footerVariants = {
       delay: 0.5,
     },
   },
+
+  
 };
+

@@ -16,7 +16,7 @@ import {
   Ourteam,
   // Advisory,
   Spline,
-  // Typewriter
+  Type,
 
 } from "./components";
 
@@ -30,11 +30,13 @@ const App = () => {
              
           <Navbar />
           <Hero />
+          <Type />
+          {/* <TypewriterText text="NEW ERA OF IMMERESIVE LEARNING" /> */}
           
         </div>
         <About />
         <Features/>
-        {/* <Typewriter /> */}
+        <Type /> 
         <Spline />
         <Experience />
         <Ourteam />
@@ -47,9 +49,8 @@ const App = () => {
           <Feedbacks />
           <Contact />
           <StarsCanvas />
-          
+          <Footer/>
         </div>
-        <Footer/>
       </div>
     </BrowserRouter>
   );

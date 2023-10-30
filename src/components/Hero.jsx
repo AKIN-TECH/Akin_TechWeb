@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc/index";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 // import { Spline } from 'react-spline';
 
 import React  from 'react';
@@ -22,13 +22,15 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div> 
 
+
            
          <div>
           <motion.div variants={textVariant()}>
           <p className={`${styles.heroSubText} mt-5 text-cyan-700	text-[11px] flex-wrap justify-center text-center leading-[30Px] ">`}>
           NEW ERA OF IMMERESIVE LEARNING<br className="sm:block hidden" />
           </p>
-          <h1 className={`${styles.heroHeadText} text-white mt-5 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}><span id="curosor">Interactive - </span>
+          <h1 className={`${styles.heroHeadText} text-white mt-5 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
+            <motion.div variants={textVariant()}>interactive- </motion.div>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> Building Design</span>
 
           </h1>
@@ -73,7 +75,7 @@ const Hero = () => {
         
       </div>
      
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
      
       <div className="absolute top-[-10] xs:bottom-[10px] bottom-32 w-full flex justify-enditems-end justify-center ">
         <a href="#about">

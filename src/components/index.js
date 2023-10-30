@@ -1,5 +1,6 @@
 //need to ADD BallCanvas//
-import { EarthCanvas, ComputersCanvas, StarsCanvas} from './canvas';
+// import { EarthCanvas, ComputersCanvas, StarsCanvas} from './canvas';
+import { EarthCanvas, StarsCanvas} from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -14,7 +15,7 @@ import Features from "./Features";
 import Supporters from "./Supporters";
 import Ourteam from "./Ourteam";
 import Spline from "./Spline";
-import Type from "./type";
+import Type from "./Type";
 
 
 
@@ -40,6 +41,6 @@ export {
   CanvasLoader,
   EarthCanvas, 
   // BallCanvas, 
-  ComputersCanvas, 
+  // ComputersCanvas, 
   StarsCanvas
 };
