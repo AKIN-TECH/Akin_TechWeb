@@ -11,16 +11,18 @@ import { fadeIn, textVariant } from "../utils/motion";
 {
   return (
     
-    <div class="mt-5 text-slate-300	flex text-[30px] flex-wrap justify-center text-center items-center ">
+    <div class="  mt-5 text-slate-300 flex text-[30px] flex-wrap justify-center text-center items-first ">
      
-     <motion.div variants={textVariant()}>
+     {/* <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>Our Features</h2>
         <p className={styles.sectionSubText}>what we want to Acheive?</p>
         
        
       </motion.div>
-     
-     <Spline scene="https://prod.spline.design/oNcoyYsW5eZniXB5/scene.splinecode" />
+      */}
+      
+      
+       <Spline scene="https://prod.spline.design/q13p6Hf0FzrJYZbU/scene.splinecode" />
    
    </div>
     

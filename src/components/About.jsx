@@ -51,9 +51,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        Manzel is the first VR Educational game for Architects that utilizes AI & VR  to teach design, construction, and history with challenges to increase the accuracy for the highest challenges, and learning quality with shorted time estimation, located in Jordan.
+        Manzel is the first VR educational game for Architects that utilizes AI & VR to teach students using challenges to maximize the quality of the learning process in a short time. It is located in Jordan.
 
-       
        </motion.p>
       
       </div>
@@ -78,10 +77,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        We Aims to fill the gabs between the theoretical learning and the market by transforming theoretical knowledge into a poignant interactive easy-to-learn experiment to build a solid foundation that helps students and engineers to gain more experiences before engaging with a real job in less time.
+        We aim to fill the gaps between theoretical learning and market needs by transforming theoretical knowledge into a poignant, interactive, easy-to-learn experiment to build a solid foundation that helps students and engineers gain more experience before engaging with a real job in short time.
 
-
-       
        </motion.p>
       
       </div>

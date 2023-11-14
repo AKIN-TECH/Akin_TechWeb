@@ -47,6 +47,7 @@ export const navLinks = [
     id: "Contact",
     title: "Contact",
   },
+
 ];
 //features of the manzel//
 const services = [
@@ -63,8 +64,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Voice Guidence",
+    title: "Voice Guidance",
     icon: creator,
+  },
+];
+
+//features of the manzel//
+const wishlist = [
+  {
+    title: "AI powered",
+    icon: web,
   },
 ];
 
@@ -76,12 +85,12 @@ const experiences = [
     iconBg: "#fff",
     date: "2022 - 2024",
     points: [
-      "Get a Pre-Seed fund from gaming lab and KAFD 'king Abdallah 11 Fund Development.'",
+      " Got a Pre-Seed fund from gaming lab and KAFD 'king Abdallah 11 Fund Development.'",
       "Incubated by Orange AI Incubated that is powered by Princess Sumaya University for Technology & issfjo - innovative startups and SMEs fund. ",
     ],
   },
   {
-    title: "Launching our Demo'MVP'",
+    title: "Launching Manzel Demo'MVP'",
     icon: Orange_logo,
     iconBg: "#fff",
     date: " 2023- 2024",
@@ -92,22 +101,22 @@ const experiences = [
     ],
   },
   {
-    title: "Lanching Beta sass platform",
-     icon: logo,
+    title: "Lanching Beta Sass platform",
+    icon: logo,
     iconBg: "#fff",
     date: " 2025 ",
     points: [
-      "Adding features and challenges with including another smart buildings to design, rehablitat.",
-      " feedback from our community and partnership.",
+      "Adding features and challenges including smart buildings to design, and rehablitation.",
+      "Feedback from our community.",
     ],
   },
   {
-    title: "Integrating other Engineering sectors sector and partnership",
+    title: "Integrating with other Engineering sectors",
     icon: pust,
     iconBg: "#fff",
     date: " 2026 - 2027",
     points: [
-      "Building indiviusal products for the integrated engineering other's related departments.",
+      "Building individual products for the other integrated engineering sectors that is related to Manzel.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       
     ],
@@ -367,4 +376,4 @@ const images = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members};
+export { services, experiences, projects, images, testimonials, feature, members, wishlist};

@@ -17,6 +17,7 @@ import {
   // Advisory,
   Spline,
   Type,
+  WishList,
 
 } from "./components";
 
@@ -47,6 +48,7 @@ const App = () => {
         <div className=" ti-container relative z-5 ">
           <Works />
           <Feedbacks />
+          {/* <WishList /> */}
           <Contact />
           <StarsCanvas />
           <Footer/>
