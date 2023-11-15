@@ -155,7 +155,20 @@ const feature = [
     
   },
 ];
-
+const spline = [
+  {
+    name: "INCORPORATE AI TO ENHANCE LEARNING",
+ 
+    image: seven,
+    
+  },
+  {
+    name: "CREATE IMMERSIVE & INTERACTIVE EXPERIENCE",
+   
+    image: eight,
+    
+  },
+];
 const projects = [
   {
     name: "Home Exterier",
@@ -376,4 +389,4 @@ const images = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist};
+export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline};
