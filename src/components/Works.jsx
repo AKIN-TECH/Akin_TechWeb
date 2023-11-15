@@ -16,17 +16,17 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-5 flex flex-wrap justify-center ">
+    <div class="mt-5 flex flex-wrap justify-center items-center text-center">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-white p-5 rounded-2xl sm:w-[170px] w-full shadow-[#00ECFE]/20"
+        className="bg-white-gradient p-[3px] rounded-[5px] shadow-card center shadow-[#00ECFE]/10 p-5 rounded-2xl sm:w-[170px] w-full shadow-[#00ECFE]/20 justify-center text-center"
       >
         <div className="relative w-full h-[250px]">
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl shadow-[#00ECFE]/20"
+            className="w-full h-full object-cover rounded-2xl shadow-[#00ECFE]/20 text-center"
           />
           <div class="mt-5 flex flex-wrap justify-center  ">
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -47,7 +47,7 @@ const ProjectCard = ({
           <h3 className="text-orange-400 font-bold text-[15px]">{name}</h3>
           <p className="mt-2 text-cyan-900 text-[12px]">{description}</p>
         </div>
-        <div className="mt-4 flex flex-wrap gap-1">
+        <div className="mt-4 flex flex-wrap gap-1 text-center items-center justify-center">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[12px] ${tag.color}`}>
               #{tag.name}

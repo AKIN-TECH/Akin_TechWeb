@@ -336,10 +336,6 @@ const images = [
       color: "blue-text-gradient",
     },
     {
-      name: "Building design",
-      color: "blue-text-gradient",
-    },
-    {
       name: "Construct",
       color: "blue-text-gradient",
     },
