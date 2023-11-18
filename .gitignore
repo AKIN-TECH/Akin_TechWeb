@@ -1,0 +1,10 @@
+.github
+node_modules
+public
+src
+package.json
+package=lock.json
+postcss.config.cjs
+readme
+tailwind.config.js
+vite.config.js
