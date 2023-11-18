@@ -48,8 +48,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/hero.png')",
-        "hero-footer":"url('/src/assets/bg.gif')",
-        "works-pattern": "url('/src/assets/bg.gif')"
+        "hero-footer":"url('/src/assets/intro.gif')",
+        "works-pattern": "url('/src/assets/intro.gif')"
       },
     },
   },
