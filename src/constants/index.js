@@ -31,20 +31,20 @@ import {
 export const navLinks = [
   {
     
-    id: "About",
+    id: "Manzel/About",
     title: "About",
   },
   {
-    id: "Roadmap",
+    id: "Manzel/Roadmap",
     title: "Roadmap",
   },
   {
-    id: "OurTeam",
+    id: "Manzel/OurTeam",
     title: "Teams",
   },
 
   {
-    id: "Contact",
+    id: "Manzel/Contact",
     title: "Contact",
   },
 
@@ -328,7 +328,7 @@ const images = [
 {
   name: "Samer Rahmeh | CTO ",
   description:
-    "  Code Architect, ML Engineer  , Unreal Developer",
+    "  Code Architect, ML Engineer  , Unreal Developer.",
 
   tags: [
     {
@@ -346,7 +346,7 @@ const images = [
 {
   name: "Haya Balasmeh ",
   description:
-    " Business Development, Certified innovation specialist ",
+    " Business Development, Certified innovation specialist.",
   tags: [
     {
       name: "Building design",

@@ -6,12 +6,14 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 
+
  function Splinescene()
 
 {
   return (
     
-    <div class="  mt-5 text-slate-300 flex text-[30px] flex-wrap justify-center text-center items-first ">
+    <div class="bg-hero-footer bg-cover bg-no-repeat bg-center bg-shadow-[#67e8f9]/50">
+      
      
      {/* <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>Our Features</h2>

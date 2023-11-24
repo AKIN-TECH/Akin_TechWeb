@@ -29,7 +29,7 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl shadow-[#00ECFE]/20 text-center"
           />
           <div class="mt-5 flex flex-wrap justify-center  ">
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover rounded-2xl">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="gradient w-14 h-14 rounded-full flex justify-center items-center cursor-pointer"
@@ -47,7 +47,7 @@ const ProjectCard = ({
           <h3 className="text-orange-400 font-bold text-[15px]">{name}</h3>
           <p className="mt-2 text-cyan-900 text-[12px]">{description}</p>
         </div>
-        <div className="mt-4 flex flex-wrap gap-1 text-center items-center justify-center">
+        <div className="mt-5 flex flex-wrap gap-1 text-center items-center justify-center">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[12px] ${tag.color}`}>
               #{tag.name}

@@ -16,7 +16,7 @@ import Ourteam from "./Ourteam";
 import Spline from "./Spline";
 import Type from "./Type";
 import WishList from "./WishList";
-
+import Aboutcopy from "./Aboutcopy";
 
 
 
@@ -24,6 +24,7 @@ import WishList from "./WishList";
 
 export {
   Hero,
+  Aboutcopy,
   Footer,
   Navbar,
   Spline,

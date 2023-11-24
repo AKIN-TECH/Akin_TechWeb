@@ -130,4 +130,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "Contact");
+export default SectionWrapper(Contact, "Manzel/Contact");

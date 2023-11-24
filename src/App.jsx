@@ -17,7 +17,7 @@ import {
   // Advisory,
   Spline,
   Type,
-  WishList,
+  Aboutcopy,
 
 } from "./components";
 
@@ -25,10 +25,10 @@ const App = () => {
   return (
     
     <BrowserRouter>
-    
+     
       <div className="relative z-0 bg primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-             
+          
           <Navbar />
           <Hero />
           <Type />
@@ -41,7 +41,6 @@ const App = () => {
         <Spline />
         <Experience />
         <Ourteam />
-        {/* <Advisory /> */}
         <Supporters/> 
         
         

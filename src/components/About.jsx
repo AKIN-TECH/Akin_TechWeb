@@ -51,12 +51,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        Manzel is the first VR educational game for Architects that utilizes AI & VR to teach students using challenges to maximize the quality of the learning process in a short time through metaverse. It is located in Jordan.
+        Manzel is the first VR educational game for Architects that utilizes AI & Virtual reality to teach students using challenges to maximize the quality of the learning process in a short time through metaverse. It is located in Jordan.
 
        </motion.p>
       
       </div>
-      <div className="mt-20 flex flex-wrap gap-10 leading-[40px] justify-center items-center text-center">
+      <div className="mt-20 flex flex-wrap gap-10 leading-[30px] justify-center items-center text-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
           
@@ -90,4 +90,4 @@ const About = () => {
   
 };
 
-export default SectionWrapper(About, "About");
+export default SectionWrapper(About, "Manzel/About");

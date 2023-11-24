@@ -38,9 +38,9 @@ const ProjectCard = ({
              
           
         </div>
-        <div className="mt-5">
-          <h3 className="text-white-400 font-bold text-[16px] text-center">{name}</h3>
-          <p className="mt-4 text-cyan-800  text-[14px] text-center">{description}</p>
+        <div className="mt-2">
+          <h2 className="text-transparent text-[18px] bg-clip-text bg-gradient-to-r from-cyan-400 to-white uppercase tracking-wider text-center">{name}</h2>
+          <p className="mt-3 text-white-800 text-[12px] text-center">{description}</p>
         </div>
          
          
@@ -104,4 +104,4 @@ const Ourteam = () => {
 };
 
 
-export default SectionWrapper(Ourteam, "OurTeam");
+export default SectionWrapper(Ourteam, "Manzel/OurTeam");
