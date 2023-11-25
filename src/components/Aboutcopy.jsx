@@ -5,40 +5,51 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import Spline from '@splinetool/react-spline';
 
- const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-[250px] ">
-    <motion.div
-       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card center shadow-[#00ECFE]/10  "
-    >
-      <div
-         options={{
-           max: 45,
-           scale: 1,
-          speed: 450,
-         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly text-center flex-col flex-row "
-      >
-         <img
-          src={icon}
-          alt="web-development"
-          className="w-16 h-16 object-contain "
-        />
 
-        <h3 className="text-white text-[18px] font-bold ">
-          {title}
-       </h3>
-       </div>
-    </motion.div>
-  </Tilt>
- );
 
 const Aboutcopy = () => {
   return (
     <>
-      
-      <div class="mt-0  ">
+
+  <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" />
+   <div>
+          
+          <motion.div variants={textVariant()}>
+          <p className={`${styles.heroSubText} mt-5 text-cyan-900	text-[11px] flex-wrap justify-center text-center leading-[30Px] ">`}>
+          NEW ERA OF IMMERESIVE LEARNING<br className="sm:block hidden" />
+          </p>
+          <h1 className={`${styles.heroHeadText} text-white mt-5 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
+            <p>interactive- </p>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> Building Process</span>
+           
+          </h1>
+          </motion.div>
+          <motion.div variants={textVariant()}>
+            <p className={`${styles.heroSubText} mt-2 text-white-200 mt-10 text-slate-300	flex text-[20px] flex-wrap justify-center text-center leading-[25Px] ">`}>
+          We build new immersive, and rewarding architectural educational world with 
+          <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
+          Enjoyable experience. </span>
+            </p>
+          </motion.div>  
+            <h className= "flex flex-wrap mt-2 text-cyan-300 mt-7 text-slate-300	flex text-[14x] flex-wrap justify-center text-center ">
+              
+              
+           {/* <a
+            href="#Section_4"
+            id="button-secondry"
+            className=" animate-slideleftT4 text-cyan-300 px-[30x] py-[10px] cursor-pointer hover:scale-105 active:scale-90 hover bg-tertiary duration-150 select-none rounded-[px]  hover: border-indigo-cyan-30 hover:bg-shadow-[#67e8f9]/50  font-bold py-2 px-10 border-b-2 border-cyan-300 hover:border-cyan-800 px-[20px] py-[10px] rounded-[9px]  hover: text-cyan-800 shadow-lg shadow-[#67e8f9]/50  "
+          
+            >
+             COMMING SOON
+          </a>
+         */}
+    
+  
+          </h>
+        </div>
+      {/* <div class="mt-0  ">
       <motion.div variants={textVariant()}>
       
         
@@ -56,7 +67,7 @@ const Aboutcopy = () => {
 
        </motion.p>
       
-      </div>
+      </div> */}
       {/* <div className="mt-20 flex flex-wrap gap-10 leading-[40px] ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

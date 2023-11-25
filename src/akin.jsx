@@ -9,7 +9,7 @@ import {
 const Akin = () => {
   return (
     <div className=" bg primary">
-            
+          < Aboutcopy />  
     </div>
   );
 };

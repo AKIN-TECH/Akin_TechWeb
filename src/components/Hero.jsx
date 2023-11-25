@@ -8,6 +8,7 @@ import { styles } from "../styles";
 
 import React  from 'react';
 import { fadeIn, textVariant } from "../utils/motion";
+import Spline from '@splinetool/react-spline';
 
 
 // import Typical from 'react-typical';
@@ -16,12 +17,16 @@ const Hero = () => {
   
 
   return (
-    
+   
     <section className={`relative w-full h-screen mx-auto  `}>
+      {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+         <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" /> */}
+      
       <div
-        className={`absolute inset-0 top-[-280px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center gap-5`}
+        className={`absolute inset-0 top-[-500px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center gap-5`}
       >
         <motion.div variants={textVariant()}>
+          
         <div className="flex flex-col justify-center items-center mt-">
         
           <div className="w-10 h-10 rounded-full bg-[#00ECFF]" />
@@ -29,9 +34,6 @@ const Hero = () => {
         
         </div> 
         </motion.div>
-        
-
-
            
          <div>
           <motion.div variants={textVariant()}>
@@ -41,16 +43,18 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white mt-5 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
             <p>interactive- </p>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> Building Process</span>
-
+           
           </h1>
           </motion.div>
           <motion.div variants={textVariant()}>
             <p className={`${styles.heroSubText} mt-2 text-white-200 mt-10 text-slate-300	flex text-[16px] flex-wrap justify-center text-center leading-[20Px] ">`}>
-          We build new immersive, and rewarding architectural educational world with <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
+          We build new immersive, and rewarding architectural educational world with  <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
           Enjoyable experience. </span>
             </p>
           </motion.div>  
             <h className= "flex flex-wrap mt-2 text-cyan-300 mt-7 text-slate-300	flex text-[14x] flex-wrap justify-center text-center ">
+              
+              
            {/* <a
             href="#Section_4"
             id="button-secondry"
@@ -80,7 +84,7 @@ const Hero = () => {
             height={1080}
             alt="Securty" */}
         </div>
-
+        
         
       </div>
      
@@ -104,7 +108,7 @@ const Hero = () => {
           </div>
         </a>
       </div>  */}
-      
+     {/* </div>  */}
     </section>
   );
 };
