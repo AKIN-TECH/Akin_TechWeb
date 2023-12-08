@@ -38,7 +38,7 @@ const About = () => {
   return (
     <>
       
-      <div class="mt-10 flex flex-wrap justify-center items-center">
+      <div class="mt-3 flex flex-wrap justify-center items-center">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>About.</h2>
         <p className={styles.sectionSubText}>Who We Are?</p>

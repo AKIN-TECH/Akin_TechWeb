@@ -51,7 +51,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20   ${
+      } w-full flex items-center py-5 fixed top-0 z-20  ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -85,7 +85,7 @@ const Navbar = () => {
         
         </ul>
           <a
-          href="#WishList"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeJXKMll6484rFIUEKmYM10GXjUxCGmEyJdKQc3WyupxT5jUQ/viewform?usp=pp_url"
           id="button-secondry"
           className=" animate-slideleftT4 px-[30x] py-[10px] cursor-pointer hover:scale-105 active:scale-90 hover  duration-150 select-none rounded-[px]  hover: border-indigo-cyan-300 hover:bg-shadow-[#67e8f9]/50  font-bold py-2 px-10 border-b-2 border-cyan-300 hover:border-orange-500 px-[20px] py-[10px] rounded-[9px]  hover: text-cyan-300 shadow-lg shadow-[#67e8f9]/50  "
         >

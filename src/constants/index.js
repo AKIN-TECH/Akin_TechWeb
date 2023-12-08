@@ -101,7 +101,7 @@ const experiences = [
     ],
   },
   {
-    title: "Lanching Beta Sass platform",
+    title: "Launching Beta Sass platform",
     icon: logo,
     iconBg: "#fff",
     date: " 2025 ",
