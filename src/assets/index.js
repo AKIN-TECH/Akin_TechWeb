@@ -47,6 +47,7 @@ import Pust from "./Pust2.png";
 import hadeel from "./hadeel.png";
 import samer from "./Samer.png";
 import haya from "./haya.png";
+import Nour from "./Nour.jpg";
 
 // import logo from "./logo.png";
 
@@ -56,6 +57,7 @@ export {
   creator,
   discord,
   mobile,
+  Nour,
   web,
   menu,
   one,

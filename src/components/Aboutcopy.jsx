@@ -23,16 +23,17 @@ const Aboutcopy = () => {
           
           <p className={`${styles.heroHeadText} text-white mt-0 text-slate-300	flex text-[30] flex-wrap justify-center text-center ">`}>
                <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" > AKIN - MANZEL </span>
-               </p>
+                </p>
+                   <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px] justify-center text-center" > click on Akin to see the interactive</h1>
                <div class="mt-7 flex flex-wrap justify-center  gap-10">
-      <a
+      {/* <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeJXKMll6484rFIUEKmYM10GXjUxCGmEyJdKQc3WyupxT5jUQ/viewform?usp=pp_url"
           id="button-secondry"
           className=" animate-slideleftT4 pg-cyan-300 px-[30x] py-[7px] cursor-pointer hover:scale-105 active:scale-90 hover  duration-150 select-none rounded-[px]  hover: border-indigo-cyan-300 hover:bg-shadow-[#67e8f9]/50  font-bold py- px-10 border-b-2 border-cyan-300 hover:border-orange-500 px-[20px] py-[10px] rounded-[9px]  hover: text-cyan-300 shadow-lg shadow-[#67e8f9]/50 justify-center "
           
         >
           Join Wishlist
-          </a>
+          </a> */}
           </div>
             <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" />
           <h1 className={`${styles.heroHeadText} text-white mt-3 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>

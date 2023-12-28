@@ -24,6 +24,7 @@ import {
   Pust,
   hadeel,
   samer,
+  Nour,
   haya,
   // threejs,
 } from "../assets";
@@ -86,7 +87,7 @@ const experiences = [
     date: "2022 - 2024",
     points: [
       " Got a Pre-Seed fund from gaming lab and KAFD 'king Abdallah 11 Fund Development.'",
-      "Incubated by Orange AI Incubated that is powered by Princess Sumaya University for Technology & issfjo - innovative startups and SMEs fund. ",
+      "Incubated by Orange AI Incubator that is powered by Princess Sumaya University for Technology & issfjo - innovative startups and SMEs fund. ",
     ],
   },
   {
@@ -139,6 +140,14 @@ const testimonials = [
     designation: "BIM management- Design Technology specialist",
     company: "At AE7",
     image: Khuzaimah,
+  },
+  {
+    testimonial:
+      "I thought it was impossible to build interactive learning inside a game.",
+    name: "Nour khrais",
+    designation: "Founder & CEO Maysalward ",
+    company: "Maysalward",
+    image: Nour,
   },
 ];
 const feature = [

@@ -61,12 +61,12 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden justify-start`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden "`}
     >
  
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[1] bg-black-100 p-2 rounded-2xl texr-orange-200 justify-center "
+        className="flex-[1] bg-black-100 p-2 rounded-2xl texr-orange-200 justify-start"
       >
         
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -85,7 +85,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium justify-center items-center"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium "
             />
           </label>
           <label className="flex flex-col">
@@ -96,7 +96,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium justify-center items-center"
             />
           </label>
           <label className="flex flex-col">
@@ -107,13 +107,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium justify-center items-center "
             />
           </label>
 
           <button
             type="submit"
-            className="bg-sky py-3 px-8  border-r-2 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-sky-800 justify-center"
+            className="bg-sky py-3 px-8  border-r-2 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-sky-800 justify-center items-center"
           >
             {loading ? "Sending..." : "Send"}
           </button>
