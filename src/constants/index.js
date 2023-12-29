@@ -143,7 +143,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to build interactive learning inside a game.",
+      "it's an creative game would merge the education through games.",
     name: "Nour khrais",
     designation: "Founder & CEO Maysalward ",
     company: "Maysalward",
@@ -312,6 +312,26 @@ const images = [
     image: gaming,
   },
 ];
+const article = [
+  {
+    name: "Home Exterier",
+    description:
+      "Oh you know… just working on another portfolio, manzel begining insane!!",
+    tags: [
+      {
+        name: "Manzel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Games",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: one,
+    source_code_link: "https://discord.gg/xBC5v8gYk6",
+  },
+];
+
   const members = [
     {
   name: "Hadeel Balasmeh | CEO",
@@ -394,4 +414,4 @@ const images = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline};
+export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article};

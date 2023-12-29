@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { discord} from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { article } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
+const ArticleCard = ({
   index,
   name,
   description,
@@ -60,7 +60,7 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const articles = () => {
   return (
     <>
       <div class="mt-5 flex flex-wrap justify-center text-center items-center">
@@ -101,8 +101,8 @@ const Works = () => {
           </a> */}
       </div>
       <div className="mt-20 flex flex-wrap gap-4 justify-center">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {article.map((project, index) => (
+          <ArticleCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
       
@@ -112,4 +112,4 @@ const Works = () => {
 };
 
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(articles, "");

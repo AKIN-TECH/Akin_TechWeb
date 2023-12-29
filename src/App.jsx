@@ -18,6 +18,7 @@ import {
   Spline,
   Type,
   Aboutcopy,
+  articles,
 
 } from "./components";
 
@@ -49,6 +50,7 @@ const App = () => {
         
         <div className=" ti-container relative z-5 ">
           <Works />
+          <articles />
           <Feedbacks />
           {/* <WishList /> */}
           <Contact />

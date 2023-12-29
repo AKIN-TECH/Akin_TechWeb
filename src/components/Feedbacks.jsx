@@ -36,7 +36,7 @@ const FeedbackCard = ({
         <img
           src={image}
           alt={`feedback_by-${name}`}
-          className="w-10 h-10 rounded-full object-cover justify-center items-center"
+          className="w-14 h-14 rounded-full object-cover justify-center items-center"
         />
       </div>
     </div>
@@ -46,7 +46,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[40px] justify-center items-center">
+    <div className="mt-12 bg-black-100 rounded-[100px] justify-center items-center">
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl justify-center items-center `}
       >
