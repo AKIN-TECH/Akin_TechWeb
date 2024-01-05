@@ -8,10 +8,10 @@ import React from "react";
 const Footer = () => {
 
   return (
-    <div className="w-full h-auto bg-[black]/50 backdrop-blur-md  text-gray-200 shadow-lg shadow-[balck]/90 p-[15px] 630:p-5 flex gap-4">
-      <div className=" w-full 1000:w-[px] h-auto 630:h-[300px] flex flex-col items-center  justify-center m-auto flex gap-4 ">
+    <div className="w-full h-auto bg-[black]/50 backdrop-blur-md  text-gray-200 shadow-lg shadow-[balck]/90 p-[12px] 630:p-5 flex gap-2">
+      <div className=" w-full 1000:w-[px] h-auto 630:h-[300px] flex flex-col items-center  justify-center m-auto flex gap-2 ">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          <div className="min-w-[100px] h-auto flex flex-col  items-start 630:items-start justify-start flex gap-4">
+          <div className="min-w-[100px] h-auto flex flex-col  items-start 630:items-start justify-start flex gap-2">
             <div className=" font-bold text-[16px] text-cyan-300">Contact us</div>
            
             <div className="mb-[20px] text-[15px] text-start  ">
@@ -19,16 +19,16 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className=" mt-[40px] mb-[40px] h-[1px] bg-white flex gap-4 y-10">
+          <div className=" mt-[20px] mb-[20px] h-[0.09px] bg-white flex gap-2 y-100">
             
             <a
               href="https://www.instagram.com/manzeltech/"
-              className=" flex flex-row items-center my-[15px] hover:underline cyan-300  cursor-line cyan-300 "
+              className=" flex flex-row items-center my-[17px] hover:underline cyan-300  cursor-line cyan-300 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 fill="currentColor"
                 className="bi bi-instagram"
                 viewBox="0 0 16 16"
@@ -40,12 +40,12 @@ const Footer = () => {
 
             <a
               href="https://wa.me/0770363106"
-              className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
+              className=" flex flex-row items-center my-[17px] hover:underline cursor-pointer "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 fill="currentColor"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -56,12 +56,12 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/company/akin-manzel"
-              className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
+              className=" flex flex-row items-center my-[17px] hover:underline cursor-pointer "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 fill="currentColor"
                 className="bi bi-linkedin"
                 viewBox="0 0 16 16"
@@ -70,11 +70,11 @@ const Footer = () => {
               </svg>
               <span className=" text-[15px] ml-[5px]">Linkdin</span>
             </a>
-             <div className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer ">
+             <div className=" flex flex-row items-center my-[17px] hover:underline cursor-pointer ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 fill="currentColor"
                 className="bi bi-discord"
                 viewBox="0 0 16 16"
