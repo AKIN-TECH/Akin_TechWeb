@@ -26,6 +26,8 @@ import {
   samer,
   Nour,
   haya,
+  web2,
+  web3,
   // threejs,
 } from "../assets";
 
@@ -312,31 +314,31 @@ const images = [
     image: gaming,
   },
 ];
-const article = [
-  {
-    name: "Home Exterier",
-    description:
-      "Oh you know… just working on another portfolio, manzel begining insane!!",
-    tags: [
-      {
-        name: "Manzel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Games",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: one,
-    source_code_link: "https://discord.gg/xBC5v8gYk6",
-  },
-];
+// const article = [
+//   {
+//     name: "Home Exterier",
+//     description:
+//       "Oh you know… just working on another portfolio, manzel begining insane!!",
+//     tags: [
+//       {
+//         name: "Manzel",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "Games",
+//         color: "blue-text-gradient",
+//       },
+//     ],
+//     image: one,
+//     source_code_link: "https://discord.gg/xBC5v8gYk6",
+//   },
+// ];
 
   const members = [
     {
   name: "Hadeel Balasmeh | CEO",
   description:
-    " Founder, Architect, VR Desiger, 3D Artist, Front-End Developer.",
+    "Founder, Architect, VR Designer, 3D Artist, Front-End Developer.",
   tags: [
     {
       name: "Manzel",
@@ -357,7 +359,7 @@ const article = [
 {
   name: "Samer Rahmeh | CTO ",
   description:
-    "  Code Architect, ML Engineer  , Unreal Developer.",
+    "Architect, Computational Developer, ML Engineer  , Unreal Developer.",
 
   tags: [
     {
@@ -375,7 +377,7 @@ const article = [
 {
   name: "Haya Balasmeh ",
   description:
-    " Business Development, Certified innovation specialist.",
+    "Marketing manager, Business Development, Certified innovation .",
   tags: [
     {
       name: "Building design",
@@ -411,6 +413,50 @@ const article = [
     
 //   },
 // ];
+const article = [
+  {
+    name: "Home Exterier",
+    // description:
+    //   "Oh you know… just working on another portfolio, manzel begining insane!!",
+    // tags: [
+    //   {
+    //     // name: "Manzel",
+    //     // color: "blue-text-gradient",
+    //   },
+    //   {
+    //     // name: "Games",
+    //     // color: "blue-text-gradient",
+    //   },
+    // ],
+    image: web2,
+    source_code_link: "https://www.linkedin.com/company/akin-manzel/",
+
+    
+  },
+  
+  {
+    name: "House-Blogs",
+    description:
+      "A comprehensive design beased on clinets requirments, has been changed now.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Design",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Draw",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: web3,
+    source_code_link: "https://www.linkedin.com/company/akin-manzel/",
+  },
+
+];
 
 
 //need to add technologies//support

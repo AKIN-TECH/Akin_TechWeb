@@ -49,6 +49,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/hero.png')",
         "hero-footer":"url('/src/assets/spline.png')",
+        "hero":"url('/src/assets/why.png')",
         "works-pattern": "url('/src/assets/intro.gif')"
       },
     },

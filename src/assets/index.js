@@ -8,6 +8,7 @@ import discord from "./discord.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import web2 from "./web2.png";
 
 
 // import css from "./tech/css.png";
@@ -28,6 +29,7 @@ import pust from "./tech/pust.png";
 import gaminglab from "./company/gaminglab.png";
 import Orange_logo from "./company/Orange_logo.png";
 
+import web3 from "./web3.png";
 
 import one from "./1.png";
 import two from "./2.png";
@@ -53,6 +55,8 @@ import Nour from "./Nour.jpg";
 
 export {
   logo,
+  web2,
+  web3,
   backend,
   creator,
   discord,

@@ -17,7 +17,10 @@ import Spline from "./Spline";
 import Type from "./Type";
 import WishList from "./WishList";
 import Aboutcopy from "./Aboutcopy";
-import articles from "./articles";
+import Article from "./Article";
+
+
+
 
 
 
@@ -27,7 +30,8 @@ import articles from "./articles";
 export {
   Hero,
   Aboutcopy,
-  articles,
+ 
+  Article,
   Footer,
   Navbar,
   Spline,
