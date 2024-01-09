@@ -24,7 +24,8 @@ const Aboutcopy = () => {
           <p className={`${styles.heroHeadText} text-white mt-0 text-slate-300	flex text-[30] flex-wrap justify-center text-center ">`}>
                <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" > AKIN - MANZEL </span>
                 </p>
-                   <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px] justify-center text-center" > click on Akin to see the interactive</h1>
+                <h1 className="  text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px] justify-center text-center" > 
+                click on Akin to see the interactive</h1>
                <div class="mt-7 flex flex-wrap justify-center  gap-10">
       {/* <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeJXKMll6484rFIUEKmYM10GXjUxCGmEyJdKQc3WyupxT5jUQ/viewform?usp=pp_url"
@@ -35,7 +36,7 @@ const Aboutcopy = () => {
           Join Wishlist
           </a> */}
           </div>
-            <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" />
           <h1 className={`${styles.heroHeadText} text-white mt-3 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
             <p>Interactive- </p>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> Building Process</span>

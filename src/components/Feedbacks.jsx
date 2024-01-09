@@ -12,6 +12,7 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  
 }) => (
   <div className="flex flex-wrap justify-center items-center">
    <motion.div
@@ -65,7 +66,20 @@ const Feedbacks = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+    
+      
+      <div class="mt-10 flex flex-wrap justify-center items-center ">
+      <motion.div variants={textVariant()}>
+      <h2 className={styles.sectionHeadText}>Live the moment.</h2>
+        <p className={styles.sectionSubText}></p>
+        
+       
+      </motion.div>
+      </div> 
     </div>
+
+    
+    
   );
 };
 

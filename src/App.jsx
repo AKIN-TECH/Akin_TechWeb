@@ -27,12 +27,14 @@ const App = () => {
   return (
     
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
+      <div className="ti-container relative z-5">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Aboutcopy />  
+        <Navbar />
+        {/* <div className="bg-hero-footer bg-cover bg-no-repeat bg-center"> */}
+        <Aboutcopy />  
             
-      </div>  
+      {/* </div>   */}
+      </div>
           <Type />
           {/* <TypewriterText text="NEW ERA OF IMMERESIVE LEARNING" /> */}
           
@@ -54,9 +56,9 @@ const App = () => {
           
           <Contact />
           <StarsCanvas />
-          <Footer/>
         </div>
       {/* </div> */}
+         <Footer/>
     </BrowserRouter>
   );
 };

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+// import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -61,16 +61,16 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden "`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden items-center justify-center"`}
     >
  
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[1] bg-black-100 p-2 rounded-2xl texr-orange-200 justify-start"
+        className="flex-[1] bg-black-100 p-2 rounded-2xl texr-orange-200 justify-center items-center"
       >
         
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <h className={styles.sectionSubText}> try rotate the earth</h>
+        {/* <h className={styles.sectionSubText}> try rotate the earth</h> */}
 
         <form
           ref={formRef}
@@ -85,7 +85,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium "
+              className="bg-white py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium items-center "
             />
           </label>
           <label className="flex flex-col">
@@ -124,7 +124,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
       </motion.div>
     </div>
   );
