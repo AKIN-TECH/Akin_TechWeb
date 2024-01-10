@@ -71,11 +71,13 @@ const Feedbacks = () => {
       <div class="mt-10 flex flex-wrap justify-center items-center ">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>Live the moment.</h2>
-        <p className={styles.sectionSubText}></p>
+        <p className={styles.sectionSubText}>see the feedback!!</p>
         
        
       </motion.div>
       </div> 
+
+      
     </div>
 
     

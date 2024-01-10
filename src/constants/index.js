@@ -459,5 +459,15 @@ const article = [
 ];
 
 
+const project = [
+  {
+    name: "INCORPORATE AI TO ENHANCE LEARNING",
+ 
+    
+  },
+  
+];
+
+
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article};
+export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project };

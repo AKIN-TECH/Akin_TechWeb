@@ -19,6 +19,7 @@ import {
   Type,
   Aboutcopy,
   Article,
+  Livethemoment,
   
 
 } from "./components";
@@ -47,10 +48,13 @@ const App = () => {
         <Ourteam />
         <Supporters/> 
         <Works />
+        <Article />
         
           <Feedbacks />
+          <Livethemoment/>
+
           {/* <WishList /> */}
-          <Article />
+          
         <div className=" ti-container relative z-5 ">
          
           
