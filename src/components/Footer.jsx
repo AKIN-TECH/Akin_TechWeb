@@ -15,7 +15,7 @@ const Footer = () => {
             <div className=" font-bold text-[16px] text-cyan-300">Contact us</div>
            
             <div className="mb-[20px] text-[15px] text-start  ">
-                &copy; Akin- 2023. All rights reserved/
+                &copy; Akin- 2023. Designed by HADEEL BALASMEH
             </div>
           </div>
           
