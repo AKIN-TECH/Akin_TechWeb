@@ -20,6 +20,7 @@ import {
   Aboutcopy,
   Article,
   Livethemoment,
+  knowmore,
   
 
 } from "./components";
@@ -52,6 +53,8 @@ const App = () => {
         
           <Feedbacks />
           <Livethemoment/>
+        <knowmore/>
+
 
           {/* <WishList /> */}
           

@@ -12,7 +12,16 @@ const Footer = () => {
       <div className=" w-full 1000:w-[px] h-auto 630:h-[300px] flex flex-col items-center  justify-center m-auto flex gap-2 ">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[100px] h-auto flex flex-col  items-start 630:items-start justify-start flex gap-2">
-            <div className=" font-bold text-[16px] text-cyan-300">Contact us</div>
+            <div className=" font-bold text-[16px] text-cyan-300">Contact us
+            
+              <a
+               href="https://www.instagram.com/manzeltech/"
+               className=" flex flex-row items-center my-[17px] hover:underline cyan-300 cursor-line cyan-300 "
+               >
+             
+              </a>
+            
+            </div>
            
             <div className="mb-[20px] text-[15px] text-start  ">
                 &copy; Akin- 2023. All rights reserved/
