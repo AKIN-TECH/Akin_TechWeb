@@ -24,8 +24,9 @@ const ProjectCard = ({
           <div className="relative w-full h-[600x] rounded-[15px] justify-center ">
            <div className="relative w-full h-[600px] rounded-[15px] ">
           
-           <video class="elementor-video" src="https://Manzeltech.co/src/assets/Black Yellow Simple Aesthetic Daily Vlog YouTube Video (1).mp4" autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
+           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hzDR4whc7lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 
+           </iframe>
            
            </div>
          </div>
