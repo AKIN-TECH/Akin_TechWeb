@@ -20,6 +20,8 @@ import {
   Aboutcopy,
   Article,
   Livethemoment,
+  Intro,
+  Play,
   
 
 } from "./components";
@@ -33,6 +35,7 @@ const App = () => {
         <Navbar />
         {/* <div className="bg-hero-footer bg-cover bg-no-repeat bg-center"> */}
         <Aboutcopy />  
+        
             
       {/* </div>   */}
       </div>
@@ -40,10 +43,15 @@ const App = () => {
           {/* <TypewriterText text="NEW ERA OF IMMERESIVE LEARNING" /> */}
           
         </div>
+        <Intro/>
         <About />
         <Features/>
+     
+        
         <Type /> 
         <Spline />
+        
+        <Play/>
         <Experience />
         <Ourteam />
         <Supporters/> 

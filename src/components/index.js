@@ -19,6 +19,8 @@ import WishList from "./WishList";
 import Aboutcopy from "./Aboutcopy";
 import Article from "./Article";
 import Livethemoment from "./Livethemoment";
+import Intro from "./Intro";
+import Play from "./Play";
 
 
 
@@ -30,7 +32,9 @@ import Livethemoment from "./Livethemoment";
 
 export {
   Hero,
+  Intro,
   Aboutcopy,
+  Play,
   Livethemoment,
  
   Article,
