@@ -20,7 +20,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-#070713 p-5 rounded-[15px] sm:w-[1000px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  "  >
+        className="bg-#070713 p-5 rounded-[15px] sm:w-[950px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  "  >
           <div className="relative w-full h-[600x] rounded-[15px] justify-center ">
            <div className="relative w-full h-[600px] rounded-[15px] ">
           
