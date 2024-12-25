@@ -338,7 +338,7 @@ const images = [
     {
   name: "Hadeel Balasmeh | CEO",
   description:
-    "Founder, Architect, VR Designer, 3D Artist, Front-End Developer.",
+    "Founder, Architect, VR Designer, 3D Artist, Unreal Developer.",
   tags: [
     {
       name: "Manzel",

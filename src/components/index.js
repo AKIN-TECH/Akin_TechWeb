@@ -19,7 +19,12 @@ import WishList from "./WishList";
 import Aboutcopy from "./Aboutcopy";
 import Article from "./Article";
 import Livethemoment from "./Livethemoment";
+<<<<<<< HEAD
 import knowmore from "./knowmore";
+=======
+import Intro from "./Intro";
+import Play from "./Play";
+>>>>>>> d9076a1e1da9f500b53a73e629f1d49f9dd430a0
 
 
 
@@ -31,7 +36,9 @@ import knowmore from "./knowmore";
 
 export {
   Hero,
+  Intro,
   Aboutcopy,
+  Play,
   Livethemoment,
   knowmore,
  

@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
            
             <div className="mb-[20px] text-[15px] text-start  ">
-                &copy; Akin- 2023. All rights reserved/
+                &copy; Akin- 2023. Designed by HADEEL BALASMEH
             </div>
           </div>
           
