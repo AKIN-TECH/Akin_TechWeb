@@ -38,7 +38,7 @@ const Hero = () => {
          <div>
           <motion.div variants={textVariant()}>
           <p className={`${styles.heroSubText} mt-5 text-cyan-700	text-[11px] flex-wrap justify-center text-center leading-[30Px] ">`}>
-          NEW ERA OF IMMERESIVE LEARNING<br className="sm:block hidden" />
+          Winning the future star award<br className="sm:block hidden" />
           </p>
           <h1 className={`${styles.heroHeadText} text-white mt-5 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
             <p>interactive- </p>
@@ -48,8 +48,8 @@ const Hero = () => {
           </motion.div>
           <motion.div variants={textVariant()}>
             <p className={`${styles.heroSubText} mt-2 text-white-200 mt-10 text-slate-300	flex text-[16px] flex-wrap justify-center text-center leading-[20Px] ">`}>
-          We build new immersive, and rewarding architectural educational world with  <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
-          Enjoyable experience. </span>
+          We build new immersive, and rewarding architectural educational world with Enjoyable experience. <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
+          Winning the future star award </span>
             </p>
           </motion.div>  
             <h className= "flex flex-wrap mt-2 text-cyan-300 mt-7 text-slate-300	flex text-[14x] flex-wrap justify-center text-center ">

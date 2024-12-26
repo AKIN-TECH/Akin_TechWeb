@@ -18,7 +18,7 @@ const Aboutcopy = () => {
           
           <motion.div variants={textVariant()}>
           <p className={`${styles.heroSubText} mt-14 text-cyan-900	text-[10px] flex-wrap justify-center text-center leading-[22px] ">`}>
-          NEW ERA OF IMMERESIVE LEARNING<br className="sm:block hidden" />
+          WINNING THE FUTURE STAR AWARD<br className="sm:block hidden" />
           </p>
           
           <p className={`${styles.heroHeadText} text-white mt-0 text-slate-300	flex text-[30] flex-wrap justify-center text-center ">`}>
