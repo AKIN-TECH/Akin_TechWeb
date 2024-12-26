@@ -32,6 +32,7 @@ import {
   mea,
   btl,
   saudi,
+  htu,
   // threejs,
 } from "../assets";
 
@@ -331,6 +332,9 @@ const image = [
   },
   {
     image: saudi,
+  },
+  {
+    image: htu,
   },
 ];
 // const article = [

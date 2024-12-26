@@ -43,8 +43,8 @@ const Supporters = () => {
     <>
        <div class="mt-10 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Our Supporters.</h2>
-        <p className={styles.sectionSubText}> MEET OUR SUPPORTERS.
+        <h2 className={styles.sectionHeadText}>Our Supporters</h2>
+        <p className={styles.sectionSubText}> MEET OUR SUPPORTERS
         </p>
         
       </motion.div>

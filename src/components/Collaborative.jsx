@@ -21,9 +21,9 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className=" bgbg-#070713 p-5 rounded-[15px] sm:w-[400px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5 w-full realtives bg-#070713 p-1 rounded-1x1 sm:w-[200px] "
+        className=" bgbg-#070713 p-1 rounded-2xl sm:w-[250px] border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/30  "
       >
-        <div className="relative w-full h-[300px]  rounded-[20px]">
+        <div className="relative w-full h-[200px]">
           <img
             src={image}
             alt={name}
@@ -43,8 +43,8 @@ const Collaborative = () => {
     <>
        <div class="mt-10 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Our Collaborative & Clinets.</h2>
-        <p className={styles.sectionSubText}> Meet Our Collaborations.
+        <h2 className={styles.sectionHeadText}>Our Collaborative & Clinets</h2>
+        <p className={styles.sectionSubText}> Become one of them now !!
         </p>
         
       </motion.div>

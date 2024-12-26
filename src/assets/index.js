@@ -29,6 +29,7 @@ import pust from "./tech/pust.png";
 import gaminglab from "./company/gaminglab.png";
 import Orange_logo from "./company/Orange_logo.png";
 import Polygonflow from "./Polygonflow.png";
+import htu from "./htu.jpg";
 
 
 import web3 from "./web3.png";
@@ -61,6 +62,7 @@ import saudi from "./saudi.png";
 // import logo from "./logo.png";
 
 export {
+  htu,
   logo,
   web2,
   mea,
