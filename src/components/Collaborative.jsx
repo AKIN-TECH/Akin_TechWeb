@@ -4,7 +4,7 @@ import { motion, AnimatePresence  } from "framer-motion";
 import { styles } from "../styles";
 // import { discord} from "../assets";
  import { SectionWrapper } from "../hoc";
-import { images } from "../constants";
+import { image } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { feature } from "../constants";
 
@@ -21,9 +21,9 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className=" realtives bg-white p-1 rounded-2xl sm:w-[200px] "
+        className=" bgbg-#070713 p-5 rounded-[15px] sm:w-[950px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5 w-full realtives bg-#070713 p-1 rounded-3x2 sm:w-[450px] "
       >
-        <div className="relative w-full h-[150px]">
+        <div className="relative w-full h-[350px]  rounded-[20px]">
           <img
             src={image}
             alt={name}
@@ -44,7 +44,7 @@ const Collaborative = () => {
        <div class="mt-10 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Our Collaborative & Clinets.</h2>
-        <p className={styles.sectionSubText}> Meet Our Strategic Collaborative.
+        <p className={styles.sectionSubText}> Meet Our Collaborations.
         </p>
         
       </motion.div>
@@ -53,7 +53,7 @@ const Collaborative = () => {
       
       
       <div className="mt-10 flex flex-wrap gap-2 justify-center">
-        {images.map((project, index) => (
+        {image.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -75,7 +75,7 @@ const Card = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-[20px] sm:w-[400px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px] rounded-[10px] shadow-card center   p-5 rounded-2xl sm:w-[300px] w-full"
+        className="bg-#070713 p-5 rounded-[15px] sm:w-[950px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  "
       >
         <div className="relative w-full h-[250px]  rounded-[20px] ">
           <img

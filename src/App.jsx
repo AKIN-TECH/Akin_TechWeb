@@ -20,12 +20,10 @@ import {
   Aboutcopy,
   Article,
   Livethemoment,
-<<<<<<< HEAD
   knowmore,
-=======
   Intro,
   Play,
->>>>>>> d9076a1e1da9f500b53a73e629f1d49f9dd430a0
+  Collaborative,
   
 
 } from "./components";
@@ -59,19 +57,18 @@ const App = () => {
         <Experience />
         <Ourteam />
         <Supporters/> 
+        <Collaborative/>
+        <Feedbacks />
+        <Livethemoment/>
         <Works />
-        <Article />
+        {/* <Article /> */}
         
-          <Feedbacks />
-          <Livethemoment/>
         <knowmore/>
 
 
           {/* <WishList /> */}
           
-        <div className=" ti-container relative z-5 ">
-         
-          
+        <div className=" ti-container relative z-5 ">    
           <Contact />
           <StarsCanvas />
         </div>

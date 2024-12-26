@@ -28,6 +28,8 @@ import web2 from "./web2.png";
 import pust from "./tech/pust.png";
 import gaminglab from "./company/gaminglab.png";
 import Orange_logo from "./company/Orange_logo.png";
+import Polygonflow from "./Polygonflow.png";
+
 
 import web3 from "./web3.png";
 
@@ -50,13 +52,22 @@ import hadeel from "./hadeel.png";
 import samer from "./Samer.png";
 import haya from "./haya.png";
 import Nour from "./Nour.jpg";
+import mea from "./mea.png";
+import btl from "./btl.png";
+import saudi from "./saudi.png";
+
+
 
 // import logo from "./logo.png";
 
 export {
   logo,
   web2,
+  mea,
   web3,
+  saudi,
+  Polygonflow,
+  btl,
   backend,
   creator,
   discord,

@@ -19,12 +19,11 @@ import WishList from "./WishList";
 import Aboutcopy from "./Aboutcopy";
 import Article from "./Article";
 import Livethemoment from "./Livethemoment";
-<<<<<<< HEAD
 import knowmore from "./knowmore";
-=======
 import Intro from "./Intro";
+import Collaborative from "./Collaborative";
 import Play from "./Play";
->>>>>>> d9076a1e1da9f500b53a73e629f1d49f9dd430a0
+
 
 
 
@@ -41,7 +40,7 @@ export {
   Play,
   Livethemoment,
   knowmore,
- 
+ Collaborative,
   Article,
   Footer,
   Navbar,

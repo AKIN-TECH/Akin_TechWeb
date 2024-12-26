@@ -28,6 +28,10 @@ import {
   haya,
   web2,
   web3,
+  Polygonflow,
+  mea,
+  btl,
+  saudi,
   // threejs,
 } from "../assets";
 
@@ -314,6 +318,21 @@ const images = [
     image: gaming,
   },
 ];
+const image = [
+  { 
+    image: Polygonflow, 
+  },
+  {
+    image: btl,
+   
+  },
+  {
+    image: mea,
+  },
+  {
+    image: saudi,
+  },
+];
 // const article = [
 //   {
 //     name: "Home Exterier",
@@ -470,4 +489,4 @@ const project = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project };
+export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image };
