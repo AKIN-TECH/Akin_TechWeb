@@ -36,6 +36,7 @@ import {
   awarg,
   award2,
   JGA24,
+  JGA24WINNER,
   // threejs,
 } from "../assets";
 
@@ -350,6 +351,10 @@ const award = [
   },
   {
     image: JGA24,
+   
+  },
+  {
+    image: JGA24WINNER,
    
   },
   

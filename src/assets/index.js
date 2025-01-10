@@ -59,6 +59,8 @@ import saudi from "./saudi.png";
 import awarg from "./award.jpg";
 import award2 from "./award2.jpg";
 import JGA24 from "./JGA24.png";
+import JGA24WINNER from "./JGA24WINNER.png";
+
 
 
 
@@ -70,6 +72,7 @@ import JGA24 from "./JGA24.png";
 
 export {
   htu,
+  JGA24WINNER,
   JGA24,
   awarg,
   award2,
