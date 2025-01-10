@@ -23,6 +23,13 @@ import knowmore from "./knowmore";
 import Intro from "./Intro";
 import Collaborative from "./Collaborative";
 import Play from "./Play";
+import Award from "./Award";
+import AwardsDetail from "./AwardsDetail";
+import AwardsD from "./AwardsD";
+
+
+
+
 
 
 
@@ -34,6 +41,9 @@ import Play from "./Play";
 
 
 export {
+  AwardsDetail,
+  AwardsD,
+  Award,
   Hero,
   Intro,
   Aboutcopy,

@@ -24,6 +24,7 @@ import {
   Intro,
   Play,
   Collaborative,
+  AwardsD,
   
 
 } from "./components";
@@ -58,9 +59,12 @@ const App = () => {
         <Ourteam />
         <Supporters/> 
         <Collaborative/>
+       
         <Feedbacks />
         <Livethemoment/>
+        
         <Works />
+        <AwardsD/>
         {/* <Article /> */}
         
         <knowmore/>

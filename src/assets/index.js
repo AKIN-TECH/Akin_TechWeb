@@ -56,6 +56,13 @@ import Nour from "./Nour.jpg";
 import mea from "./mea.png";
 import btl from "./btl.png";
 import saudi from "./saudi.png";
+import awarg from "./award.jpg";
+import award2 from "./award2.jpg";
+import JGA24 from "./JGA24.png";
+
+
+
+
 
 
 
@@ -63,6 +70,9 @@ import saudi from "./saudi.png";
 
 export {
   htu,
+  JGA24,
+  awarg,
+  award2,
   logo,
   web2,
   mea,

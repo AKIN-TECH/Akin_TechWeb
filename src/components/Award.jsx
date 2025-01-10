@@ -16,20 +16,26 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
+    
+    
     <div class="mt-0 flex flex-wrap justify-center">
+      
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-#070713 p-5 rounded-[15px] sm:w-[700px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  "  >
-          <div className="relative w-full h-[380px] rounded-[15px] justify-center ">
-           <div className="relative w-full h-[380px] rounded-[15px] ">
+
+        className="bg-#070713 p-5 rounded-[15px] sm:w-[950px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  "  >
+          <div className="relative w-full h-[600x] rounded-[15px] justify-center ">
+           <div className="relative w-full h-[600px] rounded-[15px] ">
           
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed//w7yK3weltSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hzDR4whc7lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 
            </iframe>
+           
            </div>
-          </div>
-          
+           
+         </div>
+
           
         {/* <div className="relative w-full h-[500px]  rounded-[20px] ">
           {/* <img
@@ -68,7 +74,7 @@ const ProjectCard = ({
   );
 };
 
-const Livethemoment = () => {
+const Play = () => {
   return (
     <>
       <div class="mt-5 flex flex-wrap justify-center">
@@ -89,4 +95,4 @@ const Livethemoment = () => {
 };
 
 
-export default SectionWrapper(Livethemoment, "");
+export default SectionWrapper(Play, "");

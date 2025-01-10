@@ -24,11 +24,12 @@ const ProjectCard = ({
           <div className="relative w-full h-[380px] rounded-[15px] justify-center ">
            <div className="relative w-full h-[380px] rounded-[15px] ">
           
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed//w7yK3weltSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/shorts/17DpCkJAvWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 
            </iframe>
            </div>
          </div>
+          
           
         {/* <div className="relative w-full h-[500px]  rounded-[20px] ">
           {/* <img

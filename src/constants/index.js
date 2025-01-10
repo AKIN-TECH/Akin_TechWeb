@@ -33,6 +33,9 @@ import {
   btl,
   saudi,
   htu,
+  awarg,
+  award2,
+  JGA24,
   // threejs,
 } from "../assets";
 
@@ -337,6 +340,21 @@ const image = [
     image: htu,
   },
 ];
+const award = [
+  { 
+    image: awarg, 
+  },
+  {
+    image: award2,
+   
+  },
+  {
+    image: JGA24,
+   
+  },
+  
+
+];
 // const article = [
 //   {
 //     name: "Home Exterier",
@@ -493,4 +511,4 @@ const project = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image };
+export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image, award };
