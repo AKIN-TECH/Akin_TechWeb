@@ -26,6 +26,7 @@ import Play from "./Play";
 import Award from "./Award";
 import AwardsDetail from "./AwardsDetail";
 import AwardsD from "./AwardsD";
+import Services from "./Services";
 
 
 
@@ -42,6 +43,7 @@ import AwardsD from "./AwardsD";
 
 export {
   AwardsDetail,
+  Services,
   AwardsD,
   Award,
   Hero,

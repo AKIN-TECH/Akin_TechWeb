@@ -25,7 +25,7 @@ import {
   Play,
   Collaborative,
   AwardsD,
-  
+  Services,
 
 } from "./components";
 
@@ -52,9 +52,13 @@ const App = () => {
      
         
         <Type /> 
+
+
+      
         <Spline />
+        <Services/>
         
-        <Play/>
+      
         <Experience />
         <Ourteam />
         <Supporters/> 

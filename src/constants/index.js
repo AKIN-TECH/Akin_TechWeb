@@ -47,6 +47,11 @@ export const navLinks = [
     title: "About",
   },
   {
+    
+    id: "Manzel/Services",
+    title: "Services",
+  },
+  {
     id: "Manzel/Roadmap",
     title: "Roadmap",
   },
