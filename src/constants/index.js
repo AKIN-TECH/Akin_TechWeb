@@ -93,6 +93,24 @@ const wishlist = [
     icon: web,
   },
 ];
+const dervices = [
+  {
+    title: "Training simulations",
+    icon: web,
+  },
+  {
+    title: "VR simulations",
+    icon: mobile,
+  },
+  {
+    title: "Smart cities solutions",
+    icon: backend,
+  },
+  {
+    title: "AR & VR simulations",
+    icon: creator,
+  },
+];
 
 
 const experiences = [
@@ -521,4 +539,4 @@ const project = [
 
 
 //need to add technologies//support
-export { services, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image, award };
+export { services, dervices, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image, award };

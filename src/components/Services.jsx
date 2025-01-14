@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { dervices } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 // import Spline from '@splinetool/react-spline';
@@ -59,7 +59,7 @@ const Services = () => {
       
       </div>
       <div className="mt-20 flex flex-wrap npnp gap-10 leading-[30px] justify-center items-center text-center">
-        {services.map((service, index) => (
+        {dervices.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
           
         ))}
