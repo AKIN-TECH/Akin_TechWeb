@@ -107,7 +107,7 @@ const dervices = [
     icon: backend,
   },
   {
-    title: "AR & VR simulations",
+    title: "Realeste simulations",
     icon: creator,
   },
 ];
