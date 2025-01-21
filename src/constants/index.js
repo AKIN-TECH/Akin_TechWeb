@@ -152,7 +152,7 @@ const experiences = [
     date: " 2025 - 2027",
     points: [
       "Building individual products for the other integrated engineering sectors that is related to Manzel.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional gaming and technical compiness, product managers",
       
     ],
   },
@@ -376,10 +376,10 @@ const award = [
     image: JGA24,
    
   },
-  {
-    image: JGA24WINNER,
+  // {
+  //   image: JGA24WINNER,
    
-  },
+  // },
   
 
 ];
