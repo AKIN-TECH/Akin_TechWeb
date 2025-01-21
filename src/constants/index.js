@@ -152,7 +152,7 @@ const experiences = [
     date: " 2025 - 2027",
     points: [
       "Building individual products for the other integrated engineering sectors that is related to Manzel.",
-      "Collaborating with cross-functional gaming and technical compiness, product managers",
+      "Collaborating with cross-functional gaming and technical companies, product managers",
       
     ],
   },

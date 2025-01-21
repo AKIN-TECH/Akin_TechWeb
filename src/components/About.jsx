@@ -53,8 +53,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        Manzel is the first VR educational game for Architects that utilizes AI & Virtual reality to teach students using challenges to maximize the quality of the learning process in a short time through metaverse. It is located in Jordan.
-
+        Manzel It's the first virtual platform for building simulations with real-world challenges that utilizes AI & VR to increase accuracy for the highest interactive  experience quality with short time estimation.
        </motion.p>
       
       </div>
@@ -79,7 +78,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        We aim to fill the gaps between theoretical learning and market needs by transforming theoretical knowledge into a poignant, interactive, easy-to-learn experiment to build a solid foundation that helps students and engineers gain more experience before engaging with a real job in short time through metaverse.
+        At Manzel, we transform theoretical knowledge into immersive, real-world simulations. Powered by the metaverse, our platform bridges the gap between expertise and practice, equipping engineers with hands-on experience to excel in the workforce.
 
        </motion.p>
       
