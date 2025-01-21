@@ -48,7 +48,7 @@ const Hero = () => {
           </motion.div>
           <motion.div variants={textVariant()}>
             <p className={`${styles.heroSubText} mt-2 text-white-200 mt-10 text-slate-300	flex text-[16px] flex-wrap justify-center text-center leading-[20Px] ">`}>
-          We build new immersive, and rewarding architectural simulation space with Enjoyable experience. <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
+          We build new immersive, and rewarding architectural simulation platform with Enjoyable experience. <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" >
           Winning the future star award </span>
             </p>
           </motion.div>  
