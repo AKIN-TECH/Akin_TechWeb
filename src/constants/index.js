@@ -121,35 +121,35 @@ const experiences = [
     date: "2022 - 2024",
     points: [
       " Got a Pre-Seed fund from gaming lab and KAFD 'king Abdallah 11 Fund Development.'",
-      "Incubated by Orange AI Incubator that is powered by Princess Sumaya University for Technology & issfjo - innovative startups and SMEs fund. ",
+      "Incubated by Orange AI Incubator that is powered by Princess Sumaya University for Technology & issfjo - innovative startups and SMEs fund. ","Launching Manzel Demo'MVP'"
     ],
   },
-  {
-    title: "Launching Manzel Demo'MVP'",
-    icon: Orange_logo,
-    iconBg: "#fff",
-    date: " 2023- 2024",
-    points: [
-      "Get Validation & testing.",
-      "Seed Fund.",
-      "Building Our First Arabic learning Architecture Community.",
-    ],
-  },
+  // {
+  //   title: "Launching Manzel Demo'MVP'",
+  //   icon: Orange_logo,
+  //   iconBg: "#fff",
+  //   date: " 2023- 2024",
+  //   points: [
+  //     "Get Validation & testing.",
+  //     "Seed Fund.",
+  //     "Building Our First Arabic learning Architecture Community.",
+  //   ],
+  // },
   {
     title: "Launching Beta Sass platform",
     icon: logo,
     iconBg: "#fff",
     date: " 2025 ",
     points: [
-      "Adding features and challenges including smart buildings to design, and rehablitation.",
-      "Feedback from our community.",
+      "Adding features and challenges including smart buildings to design.",
+      "Feedback from our community.", "Lanch Manzel on steam.", "Get seed fund", "get partnership",
     ],
   },
   {
-    title: "Integrating with other Engineering sectors",
+    title: "Integrating with other sectors",
     icon: pust,
     iconBg: "#fff",
-    date: " 2026 - 2027",
+    date: " 2025 - 2027",
     points: [
       "Building individual products for the other integrated engineering sectors that is related to Manzel.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
