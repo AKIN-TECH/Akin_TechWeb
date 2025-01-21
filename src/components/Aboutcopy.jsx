@@ -39,7 +39,7 @@ const Aboutcopy = () => {
           <Spline scene="https://prod.spline.design/cLaUct9bnQWsrDZA/scene.splinecode" />
           <h1 className={`${styles.heroHeadText} text-white mt-3 text-slate-300	flex text-[20x] flex-wrap justify-center text-center ">`}>
             <p>Interactive- </p>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> Building Process</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white "> simulation platform</span>
            
           </h1>
           </motion.div>
