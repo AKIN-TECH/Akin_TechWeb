@@ -78,7 +78,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
        >
-        At Manzel, we transform theoretical knowledge into immersive, real-world simulations. Powered by the metaverse, our platform bridges the gap between expertise and practice, equipping engineers with hands-on experience to excel in the workforce.
+        At Manzel, we transform theoretical knowledge into immersive, real-world simulations. Powered by Akin, our platform bridges the gap between expertise and practice, equipping engineers with hands-on experience to excel in the workforce.
 
        </motion.p>
       
