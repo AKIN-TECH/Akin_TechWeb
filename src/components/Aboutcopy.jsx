@@ -45,7 +45,7 @@ const Aboutcopy = () => {
           </motion.div>
           <motion.div variants={textVariant()}>
             <p className={`${styles.heroSubText} mt-3 text-white-200 mt-10 text-slate-300	flex text-[18px] flex-wrap justify-center text-center leading-[20x] ">`}>
-            We build new immersive, and rewarding architectural simulation platform with Enjoyable experience.
+            We build new immersive, and rewarding architectural simulation platform with
             </p>
             <p className={`${styles.heroSubText} mt-3 flex-wrap justify-center text-[22px] text-center leading-[10Px] ">`}>
                <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[10Px]" > Enjoyable experience. </span>
