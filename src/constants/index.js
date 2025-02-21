@@ -103,11 +103,11 @@ const dervices = [
     icon: mobile,
   },
   {
-    title: "Smart cities solutions",
+    title: "Smart cities,Realestate solutions",
     icon: backend,
   },
   {
-    title: "Realeste simulations",
+    title: "Custom digital solutions",
     icon: creator,
   },
 ];
