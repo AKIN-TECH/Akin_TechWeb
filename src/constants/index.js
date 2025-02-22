@@ -95,20 +95,25 @@ const wishlist = [
 ];
 const dervices = [
   {
-    title: "Training simulations",
+    title: "Training & VR simulations",
     icon: web,
+    source_code_link: "https://www.youtube.com/watch?v=vJLiyM_n-sg",
   },
   {
-    title: "VR simulations",
-    icon: mobile,
-  },
-  {
-    title: "Smart cities,Realestate solutions",
+    title: "Smart cities & Realestate solutions",
     icon: backend,
+    source_code_link: "https://drive.google.com/file/d/1rRrjENAj7bYBG7bD8r8zRSiULmRaR2tv/view?usp=sharing",
   },
+  // {
+  //   title: "VR simulations",
+  //   icon: mobile,
+  //   source_code_link: "https://www.youtube.com/watch?v=hzDR4whc7lA",
+  // },
+  
   {
     title: "Custom digital solutions",
     icon: creator,
+    source_code_link: "https://www.youtube.com/watch?v=dhfuUR5IIg8&t=2s",
   },
 ];
 
@@ -214,7 +219,7 @@ const spline = [
 ];
 const projects = [
   {
-    name: "Home Exterier",
+    name: "Home Exterier with AI avatar asistance                                                                                                                                       b",
     description:
       "Oh you know… just working on another portfolio, manzel begining insane!!",
     tags: [
@@ -231,7 +236,7 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Planning",
+    name: "Urban spaces Planning",
     description:
       "🕹️ My submission for @Manzel tech's challenges this chapter.",
     tags: [
@@ -249,9 +254,9 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Exterier",
+    name: "Home Exterier Designs",
     description:
-      "A challenging mission we needed to build it, starting from the foundation",
+      "🕹️ A challenging mission we needed to build it, starting from the foundation",
     tags: [
       {
         name: "Manzel",
@@ -266,9 +271,9 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "Home Exterier",
+    name: "Interior rebuilding spaces",
     description:
-      "Participated in a challenge to build a simple house design.",
+      "🕹️ Participated in a challenge to build a simple house design.",
 
     tags: [
       {
@@ -288,9 +293,9 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "House-Blogs",
+    name: "Smart cities simulations",
     description:
-      "working with a traditional home designer, but everything has been changed now.",
+      "working with a traditional designer, but everything has been changed now 🕹️.",
     tags: [
       {
         name: "Building design",
@@ -306,9 +311,9 @@ const projects = [
     source_code_link: "https://discord.gg/xBC5v8gYk6",
   },
   {
-    name: "House-Blogs",
+    name: "Simulation interactive Manzel",
     description:
-      "A comprehensive design beased on clinets requirments, has been changed now.",
+      "Comprehensive home beased on clinets requirments.",
     tags: [
       {
         name: "AI",
@@ -372,10 +377,10 @@ const award = [
     image: award2,
    
   },
-  {
-    image: JGA24,
+  // {
+  //   image: JGA24,
    
-  },
+  // },
   // {
   //   image: JGA24WINNER,
    
@@ -504,7 +509,7 @@ const article = [
   },
   
   {
-    name: "House-Blogs",
+    name: "Simulation interactive Manzel",
     description:
       "A comprehensive design beased on clinets requirments, has been changed now.",
     tags: [

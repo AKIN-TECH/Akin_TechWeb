@@ -34,11 +34,11 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className="gradient w-14 h-14 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
+              {/* <img
                 src={discord}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
-              />
+              /> */}
             </div>
           </div>
           </div>
@@ -48,11 +48,11 @@ const ProjectCard = ({
           <p className="mt-2 text-cyan-900 text-[12px]">{description}</p>
         </div>
         <div className="mt-5 flex flex-wrap gap-1 text-center items-center justify-center">
-          {tags.map((tag) => (
+          {/* {tags.map((tag) => (
             <p key={tag.name} className={`text-[12px] ${tag.color}`}>
               #{tag.name}
             </p>
-          ))}
+          ))} */}
         </div>
       </Tilt>
     </motion.div>

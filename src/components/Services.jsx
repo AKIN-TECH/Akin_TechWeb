@@ -3,10 +3,11 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { dervices } from "../constants";
+import { button} from "../assets";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 // import Spline from '@splinetool/react-spline';
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, source_code_link, }) => (
   <Tilt className="xs:w-[250px] w-[250px] justify-center items-center text-center">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -25,6 +26,16 @@ const ServiceCard = ({ index, title, icon }) => (
           alt="web-development"
           className="w-16 h-16 object-contain items-center text-center"
         />
+        <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="gradient w-14 h-14 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={button}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
 
         <h3 className="text-white text-[18px] font-bold text-center justify-center text-center items-center gab-20">
           {title}

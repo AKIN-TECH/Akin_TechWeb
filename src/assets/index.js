@@ -9,7 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import web2 from "./web2.png";
-
+import button from "./button.png";
 
 // import css from "./tech/css.png";
 // import docker from "./tech/docker.png";
@@ -74,6 +74,7 @@ export {
   htu,
   JGA24WINNER,
   JGA24,
+  button,
   awarg,
   award2,
   logo,
