@@ -114,7 +114,7 @@ const dervices = [
   {
     title: "Custom digital solutions",
     icon: creator,
-    source_code_link: "https://www.youtube.com/watch?v=dhfuUR5IIg8&t=2s",
+    source_code_link: "https://youtu.be/G2Z6S8eTMUE?si=UfZbVYkIUKRuEztC",
   },
 ];
 
