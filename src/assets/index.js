@@ -10,6 +10,7 @@ import close from "./close.svg";
 
 import web2 from "./web2.png";
 import button from "./button.png";
+import hothifa from "./hothifa.png";
 
 // import css from "./tech/css.png";
 // import docker from "./tech/docker.png";
@@ -72,6 +73,7 @@ import JGA24WINNER from "./JGA24WINNER.png";
 
 export {
   htu,
+  hothifa,
   JGA24WINNER,
   JGA24,
   button,

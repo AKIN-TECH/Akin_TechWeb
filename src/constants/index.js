@@ -37,6 +37,7 @@ import {
   award2,
   JGA24,
   JGA24WINNER,
+  hothifa,
   // threejs,
 } from "../assets";
 
@@ -410,7 +411,7 @@ const award = [
 
   const members = [
     {
-  name: "Hadeel Balasmeh | CEO",
+  name: "Hadeel Balasmeh ",
   description:
     "Founder, Architect, VR Designer, 3D Artist, Unreal Developer.",
   tags: [
@@ -431,9 +432,9 @@ const award = [
   source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
 {
-  name: "Samer Rahmeh | CTO ",
+  name: "Hothaifa Samir  ",
   description:
-    "Architect, Computational Developer, ML Engineer  , Unreal Developer.",
+    "Product specialist, geometry node developer",
 
   tags: [
     {
@@ -445,11 +446,12 @@ const award = [
       color: "blue-text-gradient",
     },
   ],
-  image: samer,
+  image: hothifa,
   source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
+
 {
-  name: "Haya Balasmeh ",
+  name: "Haya Balasmeh  ",
   description:
     "Marketing manager, Business Development, Certified innovation .",
   tags: [
@@ -469,6 +471,7 @@ const award = [
   image: haya,
   source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
+
 
 ];
 // const member1= [
