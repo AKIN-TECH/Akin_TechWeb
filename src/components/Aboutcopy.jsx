@@ -17,15 +17,15 @@ const Aboutcopy = () => {
    <div>
           
           <motion.div variants={textVariant()}>
-          <p className={`${styles.heroSubText} mt-14 text-cyan-900	text-[10px] flex-wrap justify-center text-center leading-[22px] ">`}>
-          WINNING THE FUTURE STAR AWARD<br className="sm:block hidden" />
+          <p className={`${styles.heroSubText} mt-14 text-cyan-500	text-[10px] flex-wrap justify-center text-center leading-[22px] ">`}>
+          WINNING THE "FUTURE STAR" AWARD<br className="sm:block hidden" />
           </p>
           
           <p className={`${styles.heroHeadText} text-white mt-0 text-slate-300	flex text-[30] flex-wrap justify-center text-center ">`}>
-               <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" > AKIN - MANZEL </span>
+               <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px]" > MANZEL TECHNOLOGIES </span>
                 </p>
-                <h1 className="  text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white leading-[50Px] justify-center text-center" > 
-                click on Akin to see the interactive</h1>
+                <p className="  text-transparent bg-clip-text bg-gradient-to-r from-cyan-100 to-white leading-[30Px] justify-center text-center" > 
+                click on Akin to see the interactive</p>
                <div class="mt-7 flex flex-wrap justify-center  gap-10">
       {/* <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeJXKMll6484rFIUEKmYM10GXjUxCGmEyJdKQc3WyupxT5jUQ/viewform?usp=pp_url"
