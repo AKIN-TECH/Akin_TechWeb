@@ -55,9 +55,9 @@ const Ourteam = () => {
     <>
        <div class="sm-5 flex flex-wrap justify-center items-center text-center">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Team Members</h2>
+        <h2 className={styles.sectionHeadText}>Team Leaders</h2>
         <p className={styles.sectionSubText}><span className=" text-transparent  text-[25px] bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
-          OUR MEMBERS !!
+          OUR leadership team  !!
         </span>
         </p>
         
