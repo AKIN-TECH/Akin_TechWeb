@@ -413,7 +413,7 @@ const award = [
     {
   name: "Hadeel Balasmeh ",
   description:
-    "Founder, Architect, VR Designer, 3D Artist, Unreal Developer.",
+    "CEO, Architect, Business developer & Technical artist.",
   tags: [
     {
       name: "Manzel",
@@ -434,7 +434,7 @@ const award = [
 {
   name: "Hothaifa Samir  ",
   description:
-    "Product specialist, geometry node developer",
+    " Co-founder, Architect, Geometry node developer, Product & Project Manager.",
 
   tags: [
     {
@@ -453,7 +453,7 @@ const award = [
 {
   name: "Haya Balasmeh  ",
   description:
-    "Marketing manager, Business Development, Certified innovation .",
+    "Marketing manager & communication specialist, Certified innovation.",
   tags: [
     {
       name: "Building design",
