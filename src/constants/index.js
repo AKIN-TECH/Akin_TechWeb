@@ -453,7 +453,7 @@ const award = [
 {
   name: "Haya Balasmeh  ",
   description:
-    "Marketing manager & communication specialist, Certified innovation.",
+    "Marketing manager & Communication specialist, Certified innovation.",
   tags: [
     {
       name: "Building design",
