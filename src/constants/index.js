@@ -450,27 +450,27 @@ const award = [
 //   source_code_link: "https://discord.gg/xBC5v8gYk6",
 // },
 
-{
-  name: "Haya Balasmeh  ",
-  description:
-    "Marketing manager & Communication specialist, Certified innovation.",
-  tags: [
-    {
-      name: "Building design",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Draw",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Collaborative",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: haya,
-  source_code_link: "https://discord.gg/xBC5v8gYk6",
-},
+// {
+//   name: "Haya Balasmeh  ",
+//   description:
+//     "Marketing manager & Communication specialist, Certified innovation.",
+//   tags: [
+//     {
+//       name: "Building design",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "Draw",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "Collaborative",
+//       color: "blue-text-gradient",
+//     },
+//   ],
+//   image: haya,
+//   source_code_link: "https://discord.gg/xBC5v8gYk6",
+// },
 
 
 ];
