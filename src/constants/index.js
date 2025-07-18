@@ -409,28 +409,28 @@ const award = [
 //   },
 // ];
 
-  const members = [
-    {
-  name: "Hadeel Balasmeh ",
-  description:
-    "CEO, Architect, Business developer & Technical artist.",
-  tags: [
-    {
-      name: "Manzel",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Home building relations",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Games",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: hadeel,
-  source_code_link: "https://discord.gg/xBC5v8gYk6",
-},
+//   const members = [
+//     {
+//   name: "Hadeel Balasmeh ",
+//   description:
+//     "CEO, Architect, Business developer & Technical artist.",
+//   tags: [
+//     {
+//       name: "Manzel",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "Home building relations",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "Games",
+//       color: "blue-text-gradient",
+//     },
+//   ],
+//   image: hadeel,
+//   source_code_link: "https://discord.gg/xBC5v8gYk6",
+// },
 // {
 //   name: "Hothaifa Samir  ",
 //   description:
