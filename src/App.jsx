@@ -13,7 +13,7 @@ import {
   Works,
   Supporters,
   StarsCanvas,
-  Ourteam,
+  // Ourteam,
   // Advisory,
   Spline,
   Type,
@@ -60,7 +60,7 @@ const App = () => {
         
       
         <Experience />
-        <Ourteam />
+        {/* <Ourteam /> */}
         <Supporters/> 
         <Collaborative/>
        

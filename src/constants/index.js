@@ -22,10 +22,10 @@ import {
   Orange,
   Kafdlogo,
   Pust,
-  hadeel,
-  samer,
+  // hadeel,
+  // samer,
   Nour,
-  haya,
+  // haya,
   web2,
   web3,
   Polygonflow,
@@ -37,7 +37,7 @@ import {
   award2,
   JGA24,
   JGA24WINNER,
-  hothifa,
+  // hothifa,
   // threejs,
 } from "../assets";
 
@@ -56,10 +56,10 @@ export const navLinks = [
     id: "Manzel/Roadmap",
     title: "Roadmap",
   },
-  {
-    id: "Manzel/OurTeam",
-    title: "Teams",
-  },
+  // {
+  //   id: "Manzel/OurTeam",
+  //   title: "Teams",
+  // },
 
   {
     id: "Manzel/Contact",
@@ -473,7 +473,7 @@ const award = [
 // },
 
 
-];
+// ];
 // const member1= [
 //   {
 //     name: "Kuzaimah Alomari",
@@ -547,4 +547,4 @@ const project = [
 
 
 //need to add technologies//support
-export { services, dervices, experiences, projects, images, testimonials, feature, members, wishlist, spline, article, project,image, award };
+export { services, dervices, experiences, projects, images, testimonials, feature, wishlist, spline, article, project,image, award };

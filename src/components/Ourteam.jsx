@@ -4,7 +4,7 @@ import { motion, AnimatePresence  } from "framer-motion";
 import { styles } from "../styles";
 // import { discord} from "../assets";
  import { SectionWrapper } from "../hoc";
-import { members } from "../constants";
+// import { members } from "../constants";
 // import { HolesCanvas } from "./canvas";
 
 import { fadeIn, textVariant } from "../utils/motion";
