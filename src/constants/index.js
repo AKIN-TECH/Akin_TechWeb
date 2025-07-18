@@ -431,24 +431,24 @@ const award = [
   image: hadeel,
   source_code_link: "https://discord.gg/xBC5v8gYk6",
 },
-{
-  name: "Hothaifa Samir  ",
-  description:
-    " Co-founder, Architect, Geometry node developer, Product & Project Manager.",
+// {
+//   name: "Hothaifa Samir  ",
+//   description:
+//     " Co-founder, Architect, Geometry node developer, Product & Project Manager.",
 
-  tags: [
-    {
-      name: "Build",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Construct",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: hothifa,
-  source_code_link: "https://discord.gg/xBC5v8gYk6",
-},
+//   tags: [
+//     {
+//       name: "Build",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "Construct",
+//       color: "blue-text-gradient",
+//     },
+//   ],
+//   image: hothifa,
+//   source_code_link: "https://discord.gg/xBC5v8gYk6",
+// },
 
 {
   name: "Haya Balasmeh  ",
