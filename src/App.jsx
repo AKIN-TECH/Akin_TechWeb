@@ -49,17 +49,11 @@ const App = () => {
         <Intro/>
         <About />
         <Features/>
-     
-        
         <Type /> 
-
-
-      
         <Spline />
         <Services/>
-        
       
-        <Experience />
+        {/* `<Experience />` */}
         {/* <Ourteam /> */}
         <Supporters/> 
         <Collaborative/>
